@@ -26,8 +26,7 @@ steps:
   inputs:
     rootFolder: dist
     includeRootFolder: true
-
-steps:
+    
 - task: CopyFiles@2
   displayName: 'Copy File to: $(TargetFolder)'
   inputs:
